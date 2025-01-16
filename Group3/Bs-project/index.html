@@ -8,23 +8,22 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" as="style" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-    <!-- Bootstrap CSS -->
+    <!-- bootstrap css -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css"
       integrity="sha384-dpuaG1suU0eT09tx5plTaGMLBsfDLzUCCUXOY2j/LSvXYuG6Bqs43ALlhIqAJVRb"
       crossorigin="anonymous"
     />
-    <!-- aos css -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="assets/css/style.css" />
     <title>Document</title>
   </head>
   <body>
-    <!-- شروع بخش منوی اصلی -->
+    <!-- شروع بخش منو -->
     <nav class="navbar bg-menu fixed-top navbar-expand-md">
       <div class="container">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand lalezar fs-4" href="#">
           <img src="assets/img/logo.png" alt="" class="logo" />
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
@@ -38,188 +37,158 @@
           <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">صفحه اصلی</a>
+                <a class="nav-link active fw-bold" aria-current="page" href="#">صفحه اصلی</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> دوره های آموزشی </a>
                 <ul class="dropdown-menu">
                   <li>
                     <a class="dropdown-item" href="#">
-                      <i class="bi bi-filetype-py"></i>
-                      <span>پایتون</span>
+                      <i class="fa-solid fa-pen-nib fs-5"></i>
+                      آموزش وب
                     </a>
                   </li>
-
                   <li>
                     <a class="dropdown-item" href="#">
-                      <i class="bi bi-browser-chrome"></i>
-                      وب</a
-                    >
+                      <i class="fa-brands fa-python fs-4"></i>
+                      <span> پایتون</span>
+                    </a>
                   </li>
-                  <li>
-                    <hr class="dropdown-divider" />
-                  </li>
-                  <li><a class="dropdown-item" href="#">برنامه نویسی</a></li>
+                  <!-- <li>
+                    <hr class="dropdown-divider">
+                  </li> -->
+                  <li><a class="dropdown-item" href="#">هوش مصنوعی</a></li>
                 </ul>
               </li>
-
               <li class="nav-item">
                 <a class="nav-link" href="#">ارتقای مهارت</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">مقالات</a>
+                <a class="nav-link" href="articles.html">مقالات</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">تماس با ما</a>
+                <a class="nav-link" href="#">ارتباط با ما</a>
               </li>
             </ul>
           </div>
         </div>
       </div>
     </nav>
-    <!-- پایان بخش منوی اصلی -->
+    <!-- پایان بخش منو -->
 
-    <!-- بخش معرفی سایت -->
+    <!-- بخش معرفی -->
     <section class="mt-5 pt-5 intro">
       <div class="container">
-        <div class="row d-flex align-items-center justify-content-center">
-          <div class="col-12 col-md-6">
-            <h2 class="lalezar pt-3">آکادمی آموزش کامپیدان</h2>
-            <h4 class="lalezar pb-5">پیشگام در آموزش برنامه نویسی</h4>
-            <p class="pt-3">با آکادمی خصوصی کامپیدان، علم برنامه نویسی رو با خیال راحت یاد بگیر و پیشرفت کن</p>
-            <button type="button" class="btn btn-danger rounded-pill">دوره های آموزشی</button>
-            <button type="button" class="btn btn-outline-success rounded-pill">نظرات دانشجویان</button>
+        <div class="row d-flex align-items-center">
+          <div class="col-12 col-sm-6">
+            <h1 class="lalezar">آکادمی آموزش کامپیدان</h1>
+            <h4 class="lalezar">پیشگام در آموزش برنامه نویسی</h4>
+            <p class="pt-5 pb-5">با آکادمی خصوصی کامپیدان، علم برنامه نویسی رو با خیال راحت یاد بگیر و پیشرفت کن</p>
+            <button type="button" class="btn btn-primary rounded-pill">دوره های آموزشی</button>
+            <button type="button" class="btn btn-outline-primary rounded-pill">نظرات دانشجویان</button>
           </div>
-          <div class="col-12 col-md-6">
+          <div class="col-12 col-sm-6">
             <img src="assets/img/header-intro.png" alt="" class="img-fluid" />
           </div>
         </div>
       </div>
     </section>
     <!-- پایان بخش معرفی -->
+
     <!-- همه می توانند -->
-    <section>
-      <div class="container">
-        <div class="row">
-          <div class="col-12 col-md-6">
-            <img src="assets/img/caneveryone.jpg" alt="" class="img-fluid" />
-          </div>
-          <div class="col-12 col-md-6">
-            <h4 class="pt-5">آيا همه می‌توانند برنامه نویس شوند؟</h4>
-            <p class="text-justify">
-              در چند سال اخیر، دنیای برنامه‌نویسی، داغ‌ترین سال‌های خود را تجربه کرده و افراد بسیار زیادی وارد این حوزه کاری/مطالعاتی شدند. شاید افراد بسیار زیادی فکر کنند که
-              برنامه نویسی برای همگان قابل دسترس است و هر کسی می‌تواند برنامه نویسی را یاد بگیرد. اما حقیقتا اینگونه نیست. برنامه‌نویسی نیز مانند هر رشته دیگری نیازمند یکسری پیش
-              زمینه ذهنی است که تنها با داشتن آن‌ها می‌توانید در این عرصه موفق شوید.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- همه می توانند -->
+    <section></section>
+    <!-- پایان همه می توانند -->
 
     <!-- آخرین دوره ها -->
     <section>
-      <h3 class="text-center lalezar">آخرین دوره ها</h3>
+      <h3 class="text-center lalezar pt-3">آخرین دوره های کامپیدان</h3>
       <p class="text-center">سکوی پرتاب شما به سمت موفقیت</p>
       <div class="container">
         <div class="row gy-4">
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="card" data-aos="flip-right">
-              <img src="assets/img/laravel.svg" class="card-img-top" alt="..." />
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="card" data-aos="flip-right" data-aos-duration="3000">
+              <img src="assets/img/js.svg" class="card-img-top" alt="..." />
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 class="card-title">توسعه کتابخانه با جاوااسکریپت</h5>
+                <p class="card-text">توسعه کتابخانه، نمونه کاری قوی برای رزومه شما است و این دوره آموزشی یادگیری چنین ...</p>
                 <div class="d-flex justify-content-between align-items-center">
                   <a href="#" class="btn btn-primary">مشاهده دوره</a>
                   <div>
-                    <del class="text-secondary">125000 تومان</del>
-                    <p class="text-success fw-bold">100,000 تومان</p>
+                    <del class="text-secondary">125,000 تومان</del>
+                    <p class="text-success fw-600">100,000 تومان</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="card" data-aos="zoom-in" data-aos-duration="2000">
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="card" data-aos="zoom-in">
               <img src="assets/img/laravel.svg" class="card-img-top" alt="..." />
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <a href="#" class="btn btn-primary">مشاهده دوره</a>
-                  <div>
-                    <del class="text-secondary">125000 تومان</del>
-                    <p class="text-success fw-bold">100,000 تومان</p>
-                  </div>
-                </div>
+                <h5 class="card-title">توسعه کتابخانه با جاوااسکریپت</h5>
+                <p class="card-text">توسعه کتابخانه، نمونه کاری قوی برای رزومه شما است و این دوره آموزشی یادگیری چنین ...</p>
+                <a href="#" class="btn btn-primary">مشاهده دوره</a>
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-6 col-lg-4">
+          <div class="col-12 col-sm-6 col-lg-4">
             <div class="card">
-              <img src="assets/img/laravel.svg" class="card-img-top" alt="..." />
+              <img src="assets/img/js.svg" class="card-img-top" alt="..." />
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <a href="#" class="btn btn-primary">مشاهده دوره</a>
-                  <div>
-                    <del class="text-secondary">125000 تومان</del>
-                    <p class="text-success fw-bold">100,000 تومان</p>
-                  </div>
-                </div>
+                <h5 class="card-title">توسعه کتابخانه با جاوااسکریپت</h5>
+                <p class="card-text">توسعه کتابخانه، نمونه کاری قوی برای رزومه شما است و این دوره آموزشی یادگیری چنین ...</p>
+                <a href="#" class="btn btn-primary">مشاهده دوره</a>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- پایان آخرین دوره ها -->
+    <!-- آخرین دوره ها پایان -->
 
     <!-- بخش آمار -->
-    <section class="mt-5">
-      <h3 class="lalezar text-center">آمارها باعث افتخار ما هستند</h3>
+    <section class="mt-4">
+      <h3 class="text-center lalezar">آمارها باعث افتخار ما هستند</h3>
       <p class="text-center">هیچ توانستنی اتفاقی نیست</p>
       <div class="container">
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 gy-4">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 gy-3 test">
           <div class="col">
             <div class="shadow text-center p-4">
-              <h2 class="fs-1 fw-bolder pt-4 purecounter" data-purecounter-start="622" data-purecounter-end="1"></h2>
-              <p>دانشجو</p>
+              <h1>123</h1>
+              <a href="articles.html" class="mylink" target="_blank"> <h6>دانشجو</h6></a>
             </div>
           </div>
           <div class="col">
             <div class="shadow text-center p-4">
-              <h2 class="fs-1 fw-bolder pt-4">123</h2>
-              <p>دانشجو</p>
+              <h1 class="purecounter" data-purecounter-start="0" data-purecounter-end="539"></h1>
+              <a href="articles.html" class="mylink" target="_blank"> <h6>دانشجو</h6></a>
             </div>
           </div>
           <div class="col">
             <div class="shadow text-center p-4">
-              <h2 class="fs-1 fw-bolder pt-4">123</h2>
-              <p>دانشجو</p>
+              <h1>123</h1>
+              <a href="articles.html" class="mylink" target="_blank"> <h6>دانشجو</h6></a>
             </div>
           </div>
           <div class="col">
             <div class="shadow text-center p-4">
-              <h2 class="fs-1 fw-bolder pt-4">123</h2>
-              <p>دانشجو</p>
+              <h1>123</h1>
+              <a href="articles.html" class="mylink" target="_blank"> <h6>دانشجو</h6></a>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- پایان بخش آمار -->
-    <!-- بخش سوالات -->
+    <!-- انتهای بخش آمار -->
+
+    <!-- بخش سوالات  -->
     <section class="mt-5">
-      <div class="text-center">
-        <h3 class="lalezar">سؤالات متداول</h3>
-        <p>پرسش‌هایی که کاربران در کامنت‌ها از ما می‌پرسند</p>
-      </div>
+      <h3 class="text-center lalezar">سؤالات متداول</h3>
+      <p class="text-center">پرسش‌هایی که کاربران در کامنت‌ها از ما می‌پرسند</p>
       <div class="container">
-        <div class="row d-flex align-items-center row-cols-1 row-cols-md-2">
+        <div class="row row-cols-1 row-cols-md-2">
           <div class="col">
-            <img src="assets/img/faq.png" alt="" class="img-fluid" />
+            <img src="assets/img/faq.png" alt="" class="img-fluid d-none d-sm-block" />
           </div>
           <div class="col">
             <div class="accordion" id="accordionExample">
@@ -313,39 +282,41 @@
 
     <!-- بخش خدمات -->
     <section class="mt-5">
-      <h3 class="text-center lalezar">خدمات کامپیدان</h3>
-      <p class="text-center">کیفیت اتفاقی نیست</p>
+      <div class="text-center">
+        <h3 class="lalezar">خدمات کامپیدان</h3>
+        <p>کیفیت اتفاقی نیست</p>
+      </div>
       <div class="container">
-        <div class="row row-cols-1 row-cols-md-3 gy-4">
+        <div class="row row-cols-1 row-cols-md-3 gy-3" data-aos="fade-left" data-aos-duration="2000">
           <div class="col">
-            <div class="service shadow text-center p-5 border-bottom border-3 border-primary rounded">
-              <i class="bi bi-cup-hot-fill fs-2"></i>
+            <div class="services shadow-lg text-center p-5 border-3 border-bottom border-success rounded">
+              <i class="bi bi-cup-hot-fill fs-1"></i>
               <h3>تیتر دلخواه</h3>
               <p>متن دلخواه</p>
-              <a href="" class="text-decoration-none">
-                <span>مشاهده دوره</span>
+              <a href="" class="d-block mt-5 text-success">
+                <span class="">مشاهده دوره</span>
                 <i class="bi bi-caret-left"></i>
               </a>
             </div>
           </div>
           <div class="col">
-            <div class="service shadow text-center p-5 border-bottom border-3 border-success rounded">
-              <i class="bi bi-cup-hot-fill fs-2"></i>
+            <div class="services shadow text-center p-5 border-3 border-bottom border-primary rounded">
+              <i class="bi bi-cup-hot-fill fs-1"></i>
               <h3>تیتر دلخواه</h3>
               <p>متن دلخواه</p>
-              <a href="" class="text-decoration-none">
-                <span>مشاهده دوره</span>
+              <a href="" class="d-block mt-5 text-primary">
+                <span class="">مشاهده دوره</span>
                 <i class="bi bi-caret-left"></i>
               </a>
             </div>
           </div>
           <div class="col">
-            <div class="service shadow text-center p-5 border-bottom border-3 border-warning rounded">
-              <i class="bi bi-cup-hot-fill fs-2"></i>
+            <div class="services shadow text-center p-5 border-3 border-bottom border-warning rounded">
+              <i class="bi bi-cup-hot-fill fs-1"></i>
               <h3>تیتر دلخواه</h3>
               <p>متن دلخواه</p>
-              <a href="" class="text-decoration-none">
-                <span>مشاهده دوره</span>
+              <a href="" class="d-block mt-5 text-warning">
+                <span class="">مشاهده دوره</span>
                 <i class="bi bi-caret-left"></i>
               </a>
             </div>
@@ -355,12 +326,12 @@
     </section>
     <!-- پایان خدمات -->
 
-    <!-- قیمت ها -->
+    <!-- price section -->
     <section class="mt-5">
       <h3 class="text-center lalezar">قیمت خدمات سایت کامپیدان</h3>
       <p class="text-center">بهترین خدمات آموزشی با قیمت های استثنایی</p>
       <div class="container">
-        <div class="row">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 gy-4">
           <div class="col">
             <div class="card text-center shadow prices">
               <div class="card-body">
@@ -369,36 +340,104 @@
                 <img src="assets/img/pricing1.png" class="card-img-top" alt="..." />
                 <ul class="list-group list-group-flush">
                   <li class="list-group-item">
-                    <i class="bi bi-alarm me-4"></i>
+                    <i class="bi bi-alarm pe-4"></i>
                     <span>ویژگی پلن اول</span>
                   </li>
                   <li class="list-group-item">
-                    <i class="bi bi-alarm me-4"></i>
+                    <i class="bi bi-alarm pe-4"></i>
                     <span>ویژگی پلن اول</span>
                   </li>
                   <li class="list-group-item">
-                    <i class="bi bi-alarm me-4"></i>
+                    <i class="bi bi-alarm pe-4"></i>
                     <span>ویژگی پلن اول</span>
                   </li>
                 </ul>
-                <a href="" class="btn btn-outline-primary mt-4">خرید پلن</a>
+                <a href="" class="btn btn-outline-success mt-4">خرید پلن</a>
               </div>
             </div>
           </div>
-          <div class="col"></div>
-          <div class="col"></div>
-          <div class="col"></div>
+          <div class="col">
+            <div class="card text-center shadow prices">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">پلن برنزی</h5>
+                <p class="card-text fw-bold">200هزار <sup class="text-danger">تومان</sup> / در ماه</p>
+                <img src="assets/img/pricing2.png" class="card-img-top" alt="..." />
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <i class="bi bi-alarm pe-4"></i>
+                    <span>ویژگی پلن دوم</span>
+                  </li>
+                  <li class="list-group-item">
+                    <i class="bi bi-alarm pe-4"></i>
+                    <span>ویژگی پلن دوم</span>
+                  </li>
+                  <li class="list-group-item">
+                    <i class="bi bi-alarm pe-4"></i>
+                    <span>ویژگی پلن دوم</span>
+                  </li>
+                </ul>
+                <a href="" class="btn btn-outline-warning mt-4">خرید پلن</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card text-center shadow prices">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">پلن رایگان</h5>
+                <p class="card-text fw-bold">0 <sup class="text-danger">تومان</sup> / در ماه</p>
+                <img src="assets/img/pricing1.png" class="card-img-top" alt="..." />
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <i class="bi bi-alarm pe-4"></i>
+                    <span>ویژگی پلن اول</span>
+                  </li>
+                  <li class="list-group-item">
+                    <i class="bi bi-alarm pe-4"></i>
+                    <span>ویژگی پلن اول</span>
+                  </li>
+                  <li class="list-group-item">
+                    <i class="bi bi-alarm pe-4"></i>
+                    <span>ویژگی پلن اول</span>
+                  </li>
+                </ul>
+                <a href="" class="btn btn-outline-success mt-4">خرید پلن</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card text-center shadow prices">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">پلن رایگان</h5>
+                <p class="card-text fw-bold">0 <sup class="text-danger">تومان</sup> / در ماه</p>
+                <img src="assets/img/pricing1.png" class="card-img-top" alt="..." />
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <i class="bi bi-alarm pe-4"></i>
+                    <span>ویژگی پلن اول</span>
+                  </li>
+                  <li class="list-group-item">
+                    <i class="bi bi-alarm pe-4"></i>
+                    <span>ویژگی پلن اول</span>
+                  </li>
+                  <li class="list-group-item">
+                    <i class="bi bi-alarm pe-4"></i>
+                    <span>ویژگی پلن اول</span>
+                  </li>
+                </ul>
+                <a href="" class="btn btn-outline-success mt-4">خرید پلن</a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
-    <!-- پایان بخش قیمت ها -->
-
+    <!-- end of price section -->
     <!-- footer -->
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
       <path
         fill="#f2f5fc"
         fill-opacity="1"
-        d="M0,160L48,154.7C96,149,192,139,288,149.3C384,160,480,192,576,218.7C672,245,768,267,864,261.3C960,256,1056,224,1152,181.3C1248,139,1344,85,1392,58.7L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        d="M0,192L60,176C120,160,240,128,360,149.3C480,171,600,245,720,245.3C840,245,960,171,1080,133.3C1200,96,1320,96,1380,96L1440,96L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
       ></path>
     </svg>
     <footer class="bg-menu">
@@ -409,65 +448,89 @@
             <p>پیشگام در آموزش برنامه نویسی</p>
           </div>
           <div class="col col-sm-12 col-md-2">
-            <h3 class="border-bottom border-3 border-warning pb-3 w-75">لینک ها</h3>
-            <ul class="list-unstyled text-primary">
+            <h3 class="border-bottom border-4 border-warning pb-3 w-75">لینک ها</h3>
+            <ul class="list-unstyled">
               <li>
-                <i class="bi bi-caret-left"></i>
-                محصولات
+                <a href="">
+                  <i class="bi bi-caret-left"></i>
+                  <span>محصولات</span>
+                </a>
               </li>
               <li>
-                <i class="bi bi-caret-left"></i>
-                محصولات
+                <a href="">
+                  <i class="bi bi-caret-left"></i>
+                  <span>محصولات</span>
+                </a>
               </li>
               <li>
-                <i class="bi bi-caret-left"></i>
-                محصولات
+                <a href="">
+                  <i class="bi bi-caret-left"></i>
+                  <span>محصولات</span>
+                </a>
               </li>
               <li>
-                <i class="bi bi-caret-left"></i>
-                محصولات
-              </li>
-            </ul>
-          </div>
-          <div class="col col-sm-12 col-md-2">
-            <h3 class="border-bottom border-3 border-success pb-3 w-75">لینک ها</h3>
-            <ul class="list-unstyled text-primary">
-              <li>
-                <i class="bi bi-caret-left"></i>
-                محصولات
-              </li>
-              <li>
-                <i class="bi bi-caret-left"></i>
-                محصولات
-              </li>
-              <li>
-                <i class="bi bi-caret-left"></i>
-                محصولات
-              </li>
-              <li>
-                <i class="bi bi-caret-left"></i>
-                محصولات
+                <a href="">
+                  <i class="bi bi-caret-left"></i>
+                  <span>محصولات</span>
+                </a>
               </li>
             </ul>
           </div>
           <div class="col col-sm-12 col-md-2">
-            <h3 class="border-bottom border-3 border-warning pb-3 w-75">لینک ها</h3>
-            <ul class="list-unstyled text-primary">
+            <h3 class="border-bottom border-4 border-success pb-3">لینک ها</h3>
+            <ul class="list-unstyled">
               <li>
-                <i class="bi bi-caret-left"></i>
-                محصولات
+                <a href="">
+                  <i class="bi bi-caret-left"></i>
+                  <span>محصولات</span>
+                </a>
               </li>
               <li>
-                <i class="bi bi-caret-left"></i>
-                محصولات
+                <a href="">
+                  <i class="bi bi-caret-left"></i>
+                  <span>محصولات</span>
+                </a>
               </li>
               <li>
-                <i class="bi bi-caret-left"></i>
-                محصولات
+                <a href="">
+                  <i class="bi bi-caret-left"></i>
+                  <span>محصولات</span>
+                </a>
               </li>
               <li>
-                <i class="bi bi-caret-left"></i>
-                محصولات
+                <a href="">
+                  <i class="bi bi-caret-left"></i>
+                  <span>محصولات</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col col-sm-12 col-md-2">
+            <h3 class="border-bottom border-4 border-danger pb-3">لینک ها</h3>
+            <ul class="list-unstyled">
+              <li>
+                <a href="">
+                  <i class="bi bi-caret-left"></i>
+                  <span>محصولات</span>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <i class="bi bi-caret-left"></i>
+                  <span>محصولات</span>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <i class="bi bi-caret-left"></i>
+                  <span>محصولات</span>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <i class="bi bi-caret-left"></i>
+                  <span>محصولات</span>
+                </a>
               </li>
             </ul>
           </div>
@@ -475,9 +538,9 @@
       </div>
     </footer>
 
+    
 
-
-    <!-- Bootstrap JS -->
+    <!-- bootstrap js -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

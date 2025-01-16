@@ -54,10 +54,14 @@ color: #fff;
 }
 
 
-/* don't repeat yourselt */
+/* prices section */
+.prices:hover{
+transform: scale(1.05);
+}
 
-
-
+.prices{
+  transition: all 0.5s;
+}
 
 
 
